@@ -1,0 +1,230 @@
+@charset "utf-8";
+
+.clearfix::after {
+  display: block;
+  content:"";
+  clear: both;
+}
+
+.header {
+  width: 100%;
+}
+.header__ttl {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Yu Gothic";
+  text-align: center;
+  color: #000;
+  padding: 20px 0;
+  border-bottom: 5px solid #ff960b;
+  margin-bottom: 10px;
+}
+
+.gnav {
+  border-top: 3px solid #ffb53e;
+  border-bottom: 3px solid #ffb53e;
+  margin-bottom: 10px;
+}
+.gnav__list {
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+.gnav__list > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.card {
+  margin: 0px 10px 10px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+.card__img {
+  width: 100%;
+  display: block;
+  border-radius: 2px 2px 0 0;
+}
+.card__img-txt {
+  background-color: #ffd41f;
+  text-align: center;
+  font-size: 14px;
+  padding: 3px 0;
+}
+
+.content {
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.anime-ttl {
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.anime-discription {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.sub-ttl {
+  font-size: 18px;
+  font-weight: normal;
+  padding: 10px 0;
+  color: #000;
+}
+
+.cast-member {
+  font-size: 14px;
+  color: #3194ff;
+  line-height: 1.5;
+}
+
+.anime-song {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.5;
+}
+
+.info-ttl {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: 3px solid #ffb53e;
+}
+
+.info {
+  padding:0 10px 10px;
+  border-bottom: 1px dotted #666;
+
+}
+
+.date {
+  padding:10px 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.icon {
+width: 50px;
+float:left;
+}
+
+.box1{
+  width: calc(100% - 50px);
+  float:left;
+}
+
+.info-ttl2 {
+  font-size: 14px;
+  font-weight: bold;
+  padding:0 0 5px 5px;
+  text-decoration: underline;
+}
+
+.info-text {
+  font-size: 14px;
+  font-weight: normal;
+  padding:0 0 0 5px;
+}
+
+.kanso-ttl {
+  padding: 20px 10px 10px;
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: 3px solid #ffb53e;
+  margin-bottom: 5px;
+}
+
+.kanso {
+  font-size: 14px;
+  font-weight: normal;
+  padding:10px 10px 60px;
+}
+
+.pagetop {
+  margin: 10px;
+  font-size: 14px;
+  text-align: right;
+}
+
+.pagetop > a {
+
+  text-decoration: none;
+  color: #000;
+}
+
+.footer {
+  background-color:#000;
+}
+
+.end {
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  padding:20px 0;
+}
+
+.box2{
+  padding: 0 10px;
+}
+
+.fav {
+  float:left;
+  width: 45%;
+}
+
+.fav > a {
+  display: block;
+  color:#fff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #50bcff;
+  padding:10px;
+  text-align: center;
+  border-radius: 4px;
+
+}
+
+.follow {
+  float:right;
+  width: 50%;
+}
+
+.follow > a {
+  display: block;
+  color:#fff;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #3e51ff;
+  padding:10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.copy-right {
+  text-align: center;
+  font-size: 10px;
+  font-weight: normal;
+  color: #fff;
+  padding:20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
